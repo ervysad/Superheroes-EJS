@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+
+.mainwrapper{
+    padding: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+}
+.maintitle {
+    margin: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+body {
+    font-family: "Baloo 2", cursive;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #100e15;
+    text-rendering: optimizeLegibility;
+    font-weight: initial;
+}
+
+/* Cards */
+.postcard {
+    flex-wrap: wrap;
+    display: flex;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+    margin: 10%;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    box-shadow: 0 4px 21px -12px rgb(0 0 0 / 66%);
+    border: 1px #110f16 solid;
+   
+    
+}
+
+.darkcard {
+    background-image: linear-gradient(90deg, rgba(22,29,45,1) 46%, rgba(24,21,31,1) 100%);
+}
+
+.lightcard {
+    background-color: #e1e5ea;
+}
+
+.dark {
+    background: #110f16;
+}
+
+.light {
+    background: #f3f5f7;
+}
+
+
+.cardwrapper {
+    margin: auto;
+    padding: 0;
+}
+
+
+.postcard__img{
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+
+
+a {
+    color: inherit;
+}
+
+
+a:hover {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+article {
+    margin: 100px;
+}
+
+.cardtitle{
+    font-size: 1.5rem;
+}
+
+.cardtext{
+    width: 100vh;
+    padding: 5%;
+    text-align: justify;
+    margin: 0;
+}
+
+.postcard__img_link{
+    margin: auto;
+    padding: 0;
+}

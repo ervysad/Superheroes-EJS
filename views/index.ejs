@@ -24,184 +24,178 @@
             <article class="shadow postcard darkcard">
                 <div class="row">
                     <div class="cardtext col-lg-9 col-sm-12">
-                        <h1 class="supername1"> <%=namesejs[0] %></h1>
+                      <a href="">  <h1 class="supername1"> <%= pageObjejs.items[0].name%></h1></a>
                         
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[0]%>.</span>
+                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[0].biography.alignment%>.</span>
                         <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[0]%>.</span>
+                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[0].work.occupation%>.</span>
                         <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[0]%>.</span>
+                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[0].work.base%>.</span>
                     </div>
                     <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[0]%> alt="Image Title" />
+                        <img class="postcard__img" src=<%= pageObjejs.items[0].images.lg%> alt="Image Title" />
                     </a>
                 </div>
             </article>
+            
 
             <article class="shadow postcard darkcard">
                 <div class="row">
                     <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[1]%> alt="Image Title" />
+                        <img class="postcard__img" src=<%= pageObjejs.items[1].images.lg%> alt="Image Title" />
                     </a>
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[1] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[1]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[1]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[1]%>.</span>
+                    <div class="cardtext col-lg-9 col-sm-12">
+                        <a href="">  <h1 class="supername1"> <%= pageObjejs.items[1].name%></h1></a>
+                          
+                          <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[1].biography.alignment%>.</span>
+                          <br>
+                          <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[1].work.occupation%>.</span>
+                          <br>
+                          <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[1].work.base%>.</span>
+                      </div>
+                </div>
+            </article>
+            <article class="shadow postcard darkcard">
+                <div class="row">
+                    <div class="cardtext col-lg-9 col-sm-12">
+                      <a href="">  <h1 class="supername1"> <%= pageObjejs.items[2].name%></h1></a>
                         
+                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[2].biography.alignment%>.</span>
+                        <br>
+                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[2].work.occupation%>.</span>
+                        <br>
+                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[2].work.base%>.</span>
                     </div>
+                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
+                        <img class="postcard__img" src=<%= pageObjejs.items[2].images.lg%> alt="Image Title" />
+                    </a>
+                </div>
+            </article>
+            
 
-
+            <article class="shadow postcard darkcard">
+                <div class="row">
+                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
+                        <img class="postcard__img" src=<%= pageObjejs.items[3].images.lg%> alt="Image Title" />
+                    </a>
+                    <div class="cardtext col-lg-9 col-sm-12">
+                        <a href="">  <h1 class="supername1"> <%= pageObjejs.items[3].name%></h1></a>
+                          
+                          <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[3].biography.alignment%>.</span>
+                          <br>
+                          <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[3].work.occupation%>.</span>
+                          <br>
+                          <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[3].work.base%>.</span>
+                      </div>
                 </div>
             </article>
 
             <article class="shadow postcard darkcard">
                 <div class="row">
                     <div class="cardtext col-lg-9 col-sm-12">
-                        <h1 class="supername1"> <%=namesejs[2] %></h1>
+                      <a href="">  <h1 class="supername1"> <%= pageObjejs.items[4].name%></h1></a>
                         
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[2]%>.</span>
+                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[4].biography.alignment%>.</span>
                         <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[2]%>.</span>
+                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[4].work.occupation%>.</span>
                         <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[2]%>.</span>
+                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[4].work.base%>.</span>
                     </div>
                     <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[2]%> alt="Image Title" />
+                        <img class="postcard__img" src=<%= pageObjejs.items[4].images.lg%> alt="Image Title" />
                     </a>
+                </div>
+            </article>
+            
 
+            <article class="shadow postcard darkcard">
+                <div class="row">
+                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
+                        <img class="postcard__img" src=<%= pageObjejs.items[5].images.lg%> alt="Image Title" />
+                    </a>
+                    <div class="cardtext col-lg-9 col-sm-12">
+                        <a href="">  <h1 class="supername1"> <%= pageObjejs.items[1].name%></h1></a>
+                          
+                          <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[5].biography.alignment%>.</span>
+                          <br>
+                          <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[5].work.occupation%>.</span>
+                          <br>
+                          <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[5].work.base%>.</span>
+                      </div>
                 </div>
             </article>
 
             <article class="shadow postcard darkcard">
                 <div class="row">
-                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[3]%> alt="Image Title" />
-                    </a>
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[3] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[3]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[3]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[3]%>.</span>
+                    <div class="cardtext col-lg-9 col-sm-12">
+                      <a href="">  <h1 class="supername1"> <%= pageObjejs.items[6].name%></h1></a>
                         
+                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[6].biography.alignment%>.</span>
+                        <br>
+                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[6].work.occupation%>.</span>
+                        <br>
+                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[6].work.base%>.</span>
                     </div>
+                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
+                        <img class="postcard__img" src=<%= pageObjejs.items[6].images.lg%> alt="Image Title" />
+                    </a>
+                </div>
+            </article>
+            
 
-
+            <article class="shadow postcard darkcard">
+                <div class="row">
+                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
+                        <img class="postcard__img" src=<%= pageObjejs.items[7].images.lg%> alt="Image Title" />
+                    </a>
+                    <div class="cardtext col-lg-9 col-sm-12">
+                        <a href="">  <h1 class="supername1"> <%= pageObjejs.items[7].name%></h1></a>
+                          
+                          <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[7].biography.alignment%>.</span>
+                          <br>
+                          <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[7].work.occupation%>.</span>
+                          <br>
+                          <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[7].work.base%>.</span>
+                      </div>
                 </div>
             </article>
 
             <article class="shadow postcard darkcard">
                 <div class="row">
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[4] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[4]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[4]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[4]%>.</span>
+                    <div class="cardtext col-lg-9 col-sm-12">
+                      <a href="">  <h1 class="supername1"> <%= pageObjejs.items[8].name%></h1></a>
                         
+                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[8].biography.alignment%>.</span>
+                        <br>
+                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[8].work.occupation%>.</span>
+                        <br>
+                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[8].work.base%>.</span>
                     </div>
                     <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[4]%> alt="Image Title" />
+                        <img class="postcard__img" src=<%= pageObjejs.items[8].images.lg%> alt="Image Title" />
                     </a>
-
                 </div>
             </article>
+            
 
             <article class="shadow postcard darkcard">
                 <div class="row">
                     <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[5]%> alt="Image Title" />
+                        <img class="postcard__img" src=<%= pageObjejs.items[9].images.lg%> alt="Image Title" />
                     </a>
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[5] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[5]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[5]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[5]%>.</span>
-                        
-                    </div>
-
+                    <div class="cardtext col-lg-9 col-sm-12">
+                        <a href="">  <h1 class="supername1"> <%= pageObjejs.items[9].name%></h1></a>
+                          
+                          <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= pageObjejs.items[9].biography.alignment%>.</span>
+                          <br>
+                          <i class="fas fa-earth-americas "></i> <span> Occupation: <%= pageObjejs.items[9].work.occupation%>.</span>
+                          <br>
+                          <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= pageObjejs.items[9].work.base%>.</span>
+                      </div>
                 </div>
             </article>
 
-            <article class="shadow postcard darkcard">
-                <div class="row">
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[6] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[6]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[6]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[6]%>.</span>
-                        
-                    </div>
-                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[6]%> alt="Image Title" />
-                    </a>
 
-                </div>
-            </article>
-
-            <article class="shadow postcard darkcard">
-                <div class="row">
-                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[7]%> alt="Image Title" />
-                    </a>
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[7] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[7]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[7]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[7]%>.</span>
-                        
-                    </div>
-
-
-                </div>
-            </article>
-
-            <article class="shadow postcard darkcard">
-                <div class="row">
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[8] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[8]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[8]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[8]%>.</span>
-                        
-                    </div>
-                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[8]%> alt="Image Title" />
-                    </a>
-                </div>
-            </article>
-
-            <article class="shadow postcard darkcard">
-                <div class="row">
-                    <a class="postcard__img_link col-lg-3 col-sm-6" href="hero.html">
-                        <img class="postcard__img" src=<%=imagesejs[9]%> alt="Image Title" />
-                    </a>
-                    <div class="cardtext col-lg-9 col-sm-12 col justify-between">
-                        <h1><%= namesejs[9] %></h1>
-                        <i class="fas fa-solid fa-masks-theater"></i> <span> Alignment:  <%= alignmentejs[9]%>.</span>
-                        <br>
-                        <i class="fas fa-earth-americas "></i> <span> Occupation: <%= occupationejs[9]%>.</span>
-                        <br>
-                        <i class="fa-solid fa-location-dot"></i> <span> Base Location: <%= locationejs[9]%>.</span>
-                        
-                    </div>
-
-
-                </div>
-            </article>
 
 
         </div>
@@ -218,31 +212,31 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item active">
-                          <a class="nav-link" href="http://localhost:3000/">1 <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="http://localhost:3000/">1<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="http://localhost:3000/page2">2</a>
+                          <a class="nav-link" href="http://localhost:3000/page2">2<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="http://localhost:3000/page3">3</a>
+                          <a class="nav-link" href="http://localhost:3000/page3">3<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:3000/page4">4</a>
+                            <a class="nav-link" href="http://localhost:3000/page4">4<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:3000/page5">5</a>
+                            <a class="nav-link" href="http://localhost:3000/page5">5<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:3000/page6">6</a>
+                            <a class="nav-link" href="http://localhost:3000/page6">6<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:3000/page7">7</a>
+                            <a class="nav-link" href="http://localhost:3000/page7">7<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:3000/page8">8</a>
+                            <a class="nav-link" href="http://localhost:3000/page8">8<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:3000/page9">9</a>
+                            <a class="nav-link" href="http://localhost:3000/page9">9<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="http://localhost:3000/page10">10</a>
